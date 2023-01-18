@@ -1,0 +1,638 @@
+@media only screen and (max-width: 600px) {
+    /*  MOBILE    */
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .darkTheme {
+        background-color: #201D34;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+    }
+
+    p.headerP {
+        display: inline-block;
+        font-size: 2em;
+        font-family: cursive;
+        font-weight: 1000;
+    }
+
+    div.container {
+        height: 100%;
+    }
+
+    a.posts h3 {
+        color: black;
+    }
+
+    a.posts h3.darkTheme {
+        color: white;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+
+
+    .sideBarMenu {
+        background-color: white;
+        color: black;
+        height: 75%;
+        width: 35%;
+        position: fixed !important;
+        z-index: 1;
+        overflow: auto;
+        border-radius: 25px;
+        border: 2px solid black;
+    }
+
+    div.sideBarMenu a {
+        display: block;
+        padding: 1em;
+        color: black;
+        background-color: white;
+        text-decoration: none;
+    }
+
+    div.noKeto a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    a.button {
+        text-decoration: none;
+        color: white;
+        background: rgb(63, 94, 251);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 2em;
+        font-family: cursive;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 1000;
+    }
+
+    div.sideBarMenu i {
+        display: block;
+        padding: 15px;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    i.sideBar {
+        margin-right: 20px;
+    }
+
+    img.main {
+        border-radius: 25px;
+    }
+
+    .noKetoContainer {
+        background: rgb(242, 212, 53);
+        background: radial-gradient(circle, rgba(242, 212, 53, 1) 18%, rgba(250, 86, 86, 1) 100%);
+    }
+
+    .centered {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .noKetoP {
+        font-size: 1.5em;
+        color: #536103;
+        font-weight: bold;
+        font-family: cursive;
+    }
+
+    .noKetoA {
+        background-color: yellowgreen;
+        font-weight: 900;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .noKeto {
+        display: flex;
+    }
+
+    hr {
+        border-top: 2px solid black;
+        max-width: 300px;
+    }
+
+    a.showAll {
+        text-decoration: none;
+        color: grey;
+        border-bottom: 2px solid grey;
+        padding: 8px;
+    }
+
+    div.posts {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.posts div {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.clients {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    div.opinions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        padding: 0px
+    }
+
+    div.opinionContainer {
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    div.opinion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .profilePic {
+        border-radius: 25px;
+    }
+
+    p.opinionP {
+        text-align: center;
+    }
+
+    .line {
+        width: 32px;
+        height: 4px;
+        display: inline-block;
+        margin: 20px;
+        margin-right: 5px;
+    }
+
+    .selected {
+        background-color: #ff5656;
+    }
+
+    .notSelected {
+        background-color: #858877;
+    }
+
+
+
+    div.newsletter {
+        font-family: sans-serif;
+        border: 1px;
+        border-top: 8px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        padding: 2rem 1.5rem;
+    }
+
+    div.newsletter h3 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0px;
+    }
+
+    div.newsletter p {
+        line-height: 1.25;
+        opacity: 0.8;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    div.newsletter input {
+        border-radius: 25px;
+        border-width: 1px;
+        height: 50px;
+        width: 270px;
+        font-size: 1.25rem;
+        padding: 0px 15px;
+    }
+
+    div.newsletter button {
+        background: rgb(63, 94, 251);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        color: white;
+        height: 54px;
+        width: 300px;
+        border-radius: 25px;
+        border: none;
+        font-size: 1.05rem;
+        font-weight: bold;
+        margin-top: .5rem;
+    }
+
+    div.newsletter span {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        color: green;
+        font-weight: bold;
+    }
+    
+    div.newsletter span.unSuccess {
+        color: red;
+    }
+
+    footer {
+        min-height: 5rem;
+        margin: -1rem;
+        margin-top: 1rem;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    footer i {
+        padding-top: 1.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    /*  Desktop    */
+
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .darkTheme {
+        background-color: #201D34;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+    }
+
+    p.headerP {
+        display: inline-block;
+        font-size: 2em;
+        font-family: cursive;
+        font-weight: 1000;
+    }
+
+    span.homeBtn:hover {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a.button {
+        text-decoration: none;
+        color: white;
+        background: rgb(63, 94, 251);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 2em;
+        font-family: cursive;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#nav {
+        color: black;
+        padding: 20px;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    /* Toggle Button */
+    label.switch {
+        position: relative;
+        display: inline-block;
+        width: 53px;
+        height: 25px;
+    }
+
+    label.switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(100, 100, 100);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 3px;
+        bottom: 3px;
+        background-color: rgb(190, 190, 190);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider {
+        background-color: white;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px white;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+    /* End Toggle Button */
+
+    .navButton {
+        margin: 20px;
+    }
+
+    img.main {
+        border-radius: 25px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .noKetoContainer {
+        background: rgb(242, 212, 53);
+        background: radial-gradient(circle, rgba(242, 212, 53, 1) 18%, rgba(250, 86, 86, 1) 100%);
+    }
+
+    .centered {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .noKetoP {
+        font-size: 1.5em;
+        color: #d1f75d;
+        font-weight: bold;
+        font-family: cursive;
+    }
+
+    .noKetoA {
+        background-color: yellowgreen;
+        font-weight: 900;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .noKeto {
+        display: flex;
+    }
+
+    .noKetoImg {
+        display: flex;
+    }
+
+    hr {
+        border-top: 2px solid black;
+        max-width: 650px;
+    }
+
+    a.showAll {
+        text-decoration: none;
+        color: grey;
+        border-bottom: 2px solid grey;
+        padding: 8px;
+    }
+
+    div.featured {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    span.posts {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div.clients {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    div.clients h2 {
+        font-size: 3rem;
+    }
+
+    div.opinions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+    }
+
+    div.opinionContainer {
+        min-height: 280px;
+        display: flex;
+        align-items: center;
+    }
+
+    div.opinion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .profilePic {
+        border-radius: 25px;
+    }
+
+    p.opinionP {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .line {
+        width: 32px;
+        height: 6px;
+        display: inline-block;
+        margin: 20px;
+        margin-right: 5px;
+    }
+
+    .line:hover {
+        cursor: pointer;
+    }
+
+    .selected {
+        background-color: #ff5656;
+    }
+
+    .notSelected {
+        background-color: #858877;
+    }
+
+    .leftArrow {
+        margin-right: 30px;
+    }
+
+    .leftArrow:hover {
+        cursor: pointer;
+    }
+
+    .rightArrow {
+        margin-left: 30px;
+    }
+    .rightArrow:hover {
+        cursor: pointer;
+    }
+
+    div.newsletter {
+        font-family: sans-serif;
+        border: 1px;
+        border-top: 8px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        padding: 3rem 2.5rem;
+    }
+
+    div.newsletter h3 {
+        font-size: 2.5rem;
+        margin: 5px;
+    }
+
+    div.newsletter p {
+        line-height: 1.25;
+        opacity: 0.8;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    div.newsletter input {
+        border-radius: 25px;
+        border-width: 1px;
+        height: 50px;
+        width: 300px;
+        font-size: 1.25rem;
+        padding: 0px 15px;
+    }
+
+    div.newsletter button {
+        background: rgb(63, 94, 251);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        color: white;
+        height: 54px;
+        width: 120px;
+        border-radius: 25px;
+        border: none;
+        font-size: 1.05rem;
+        font-weight: bold;
+    }
+
+    div.newsletter span {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        color: green;
+        font-weight: bold;
+    }
+
+    div.newsletter span.unSuccess {
+        color: red;
+    }
+
+    footer {
+        min-height: 5rem;
+        margin: -1rem;
+        margin-top: 1rem;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    footer i {
+        padding-top: 1.5rem;
+    }
+
+}
